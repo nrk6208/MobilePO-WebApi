@@ -1,0 +1,8 @@
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.DAL\bin\Debug\netcoreapp2.1\NB.MOBILEPO.DA.deps.json
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.DAL\bin\Debug\netcoreapp2.1\NB.MOBILEPO.DA.dll
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.DAL\bin\Debug\netcoreapp2.1\NB.MOBILEPO.DA.pdb
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.DAL\obj\Debug\netcoreapp2.1\NB.MOBILEPO.DA.csproj.CoreCompileInputs.cache
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.DAL\obj\Debug\netcoreapp2.1\NB.MOBILEPO.DA.AssemblyInfoInputs.cache
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.DAL\obj\Debug\netcoreapp2.1\NB.MOBILEPO.DA.AssemblyInfo.cs
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.DAL\obj\Debug\netcoreapp2.1\NB.MOBILEPO.DA.dll
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.DAL\obj\Debug\netcoreapp2.1\NB.MOBILEPO.DA.pdb

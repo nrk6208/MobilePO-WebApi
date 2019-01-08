@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "NB.MOBILEPO.BAL/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "2.1.1.0",
+          "Microsoft.IdentityModel.Tokens": "5.2.0.0",
+          "System.IdentityModel.Tokens.Jwt": "5.2.0.0"
+        },
+        "runtime": {
+          "NB.MOBILEPO.BAL.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/2.1.1.0": {
+        "runtime": {
+          "Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.2.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.50129"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.2.0.0": {
+        "runtime": {
+          "System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.50129"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NB.MOBILEPO.BAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Options/2.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Tokens/5.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IdentityModel.Tokens.Jwt/5.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

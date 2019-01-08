@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.WEBAPI\NB.MOBILEPO.WEBAPI.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.1.2" />
+    <PackageReference Include="Seq.Extensions.Logging" Version="4.0.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="2.1.1" />
+    <PackageReference Include="SoapCore" Version="0.9.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NB.MOBILEPO.BAL\NB.MOBILEPO.BAL.csproj" />
+    <ProjectReference Include="..\NB.MOBILEPO.DAL\NB.MOBILEPO.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

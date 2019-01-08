@@ -1,0 +1,6 @@
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.WEBAPI\obj\Release\netcoreapp2.1\NB.MOBILEPO.WEBAPI.csprojAssemblyReference.cache
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.WEBAPI\obj\Release\netcoreapp2.1\NB.MOBILEPO.WEBAPI.csproj.CoreCompileInputs.cache
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.WEBAPI\obj\Release\netcoreapp2.1\NB.MOBILEPO.WEBAPI.RazorAssemblyInfo.cache
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.WEBAPI\obj\Release\netcoreapp2.1\NB.MOBILEPO.WEBAPI.RazorAssemblyInfo.cs
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.WEBAPI\obj\Release\netcoreapp2.1\NB.MOBILEPO.WEBAPI.AssemblyInfoInputs.cache
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.WEBAPI\obj\Release\netcoreapp2.1\NB.MOBILEPO.WEBAPI.AssemblyInfo.cs

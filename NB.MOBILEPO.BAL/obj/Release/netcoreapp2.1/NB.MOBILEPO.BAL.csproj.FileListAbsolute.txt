@@ -1,0 +1,16 @@
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\bin\Release\netcoreapp2.1\NB.MOBILEPO.BAL.deps.json
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\bin\Release\netcoreapp2.1\NB.MOBILEPO.BAL.dll
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\bin\Release\netcoreapp2.1\NB.MOBILEPO.BAL.pdb
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\bin\Release\netcoreapp2.1\Microsoft.Extensions.Options.dll
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\bin\Release\netcoreapp2.1\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\bin\Release\netcoreapp2.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\bin\Release\netcoreapp2.1\Microsoft.Extensions.Options.xml
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\bin\Release\netcoreapp2.1\Microsoft.IdentityModel.Tokens.xml
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\bin\Release\netcoreapp2.1\System.IdentityModel.Tokens.Jwt.xml
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\obj\Release\netcoreapp2.1\NB.MOBILEPO.BAL.csprojAssemblyReference.cache
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\obj\Release\netcoreapp2.1\NB.MOBILEPO.BAL.csproj.CoreCompileInputs.cache
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\obj\Release\netcoreapp2.1\NB.MOBILEPO.BAL.AssemblyInfoInputs.cache
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\obj\Release\netcoreapp2.1\NB.MOBILEPO.BAL.AssemblyInfo.cs
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\obj\Release\netcoreapp2.1\NB.MOBILEPO.BAL.csproj.CopyComplete
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\obj\Release\netcoreapp2.1\NB.MOBILEPO.BAL.dll
+D:\Projects\Dotnet Core\Hyva\NB.MOBILEPO\NB.MOBILEPO.BAL\obj\Release\netcoreapp2.1\NB.MOBILEPO.BAL.pdb

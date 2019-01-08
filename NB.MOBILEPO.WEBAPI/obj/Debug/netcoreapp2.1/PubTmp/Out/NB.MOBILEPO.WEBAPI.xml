@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NB.MOBILEPO.WEBAPI</name>
+    </assembly>
+    <members>
+        <member name="T:NB.MOBILEPO.WEBAPI.Controllers.DashboardController">
+            <summary>
+            class to access Dashboard services
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.DashboardController.#ctor(NB.MOBILEPO.BAL.Interfaces.IDashboardService,Microsoft.Extensions.Logging.ILogger{NB.MOBILEPO.BAL.Services.DashboardService})">
+            <summary>
+            constructor for Dashboard controller
+            </summary>
+            <param name="dashboardService"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.DashboardController.Finalize">
+            <summary>
+            Destructor for Dashboard controller
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.DashboardController.GetDashboardData(System.Nullable{System.Int32})">
+            <summary>
+            Method to get Dashboard data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:NB.MOBILEPO.WEBAPI.Controllers.GateEntriesController">
+            <summary>
+            class to access GateEntries services
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.GateEntriesController.#ctor(NB.MOBILEPO.BAL.Interfaces.IGateEntriesService,Microsoft.Extensions.Logging.ILogger{NB.MOBILEPO.WEBAPI.Controllers.GateEntriesController})">
+            <summary>
+            constructor for GateEntries controller
+            </summary>
+            <param name="gateEntriesService"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.GateEntriesController.PostGateEntry(NB.MOBILEPO.BAL.Models.GateEntryModel)">
+            <summary>
+            Method to post new gateEntry record
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.GateEntriesController.GetGateEntry(System.String)">
+            <summary>
+            Method to get gateEntries by gateEntry number
+            </summary>
+            <param name="gateEntryNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NB.MOBILEPO.WEBAPI.Controllers.LoginController">
+            <summary>
+            claas to access Login services
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.LoginController.#ctor(NB.MOBILEPO.BAL.Interfaces.ILoginService,NB.MOBILEPO.BAL.Interfaces.IUserService,Microsoft.Extensions.Logging.ILogger{NB.MOBILEPO.WEBAPI.Controllers.LoginController})">
+            <summary>
+            Constructor for Login controller
+            </summary>
+            <param name="loginService"></param>
+            <param name="userService"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.LoginController.Finalize">
+            <summary>
+            Destructor for LoginController
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.LoginController.Authenticate(NB.MOBILEPO.BAL.Models.LoginModel)">
+            <summary>
+            Method to authenticate credentials
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.LoginController.PostEncrypt(System.String,System.String)">
+            <summary>
+            Developer test: Encrypt the password by passing optional secret key
+            </summary>
+            <param name="password"></param>
+            <param name="salt"></param>
+            <returns>encrypted password</returns>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.LoginController.PostDecrypt(System.String,System.String)">
+            <summary>
+            Developer test: Decrypt the password by passing encrypted password and secret key
+            </summary>
+            <param name="passwordHash"></param>
+            <param name="salt"></param>
+            <returns>plain password</returns>
+        </member>
+        <member name="T:NB.MOBILEPO.WEBAPI.Controllers.PurchaseOrdersController">
+            <summary>
+            class to access PurchaseOrder services
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.PurchaseOrdersController.#ctor(NB.MOBILEPO.BAL.Interfaces.IPurchaseOrdersService,Microsoft.Extensions.Logging.ILogger{NB.MOBILEPO.WEBAPI.Controllers.PurchaseOrdersController})">
+            <summary>
+            constructor for GateEntries controller
+            </summary>
+            <param name="purchaseOrdersService"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.PurchaseOrdersController.GetAllPurchaseOrders">
+            <summary>
+            Method to get all PurchaseOrders along with lines
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:NB.MOBILEPO.WEBAPI.Controllers.ReceiptController">
+            <summary>
+            class to access Receipt services
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.ReceiptController.#ctor(NB.MOBILEPO.BAL.Interfaces.IReceiptService,Microsoft.Extensions.Logging.ILogger{NB.MOBILEPO.WEBAPI.Controllers.ReceiptController})">
+            <summary>
+            constructor for Receipt controller
+            </summary>
+            <param name="receiptService"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.ReceiptController.PostReceipt(NB.MOBILEPO.BAL.Models.ReceiptModel)">
+            <summary>
+            Method to create Receipt
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NB.MOBILEPO.WEBAPI.Controllers.ShipmentsController">
+            <summary>
+            class to access Shipments services
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.ShipmentsController.#ctor(NB.MOBILEPO.BAL.Interfaces.IShipmentsService,Microsoft.Extensions.Logging.ILogger{NB.MOBILEPO.BAL.Services.ShipmentsService})">
+            <summary>
+            constructor for Shipments controller
+            </summary>
+            <param name="shipmentsService"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.ShipmentsController.Finalize">
+            <summary>
+            Destructor for Shipments controller
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.ShipmentsController.GetByInvoiceNumber(System.String)">
+            <summary>
+            Method to get shipments by invoice number
+            </summary>
+            <param name="invoiceNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.ShipmentsController.GetAllShipments">
+            <summary>
+            Method to get all Shipments along with lines
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Controllers.ShipmentsController.PostShipment(NB.MOBILEPO.BAL.Models.ShipmentModel)">
+            <summary>
+            Method to post new shipment record
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NB.MOBILEPO.WEBAPI.Extensions.Configurations">
+            <summary>
+            Class to provide custom Configurations
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.Configurations.AddConfigurationServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Add Custom configuration service
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.Configurations.UseConfigurations(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            use custom configurations
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:NB.MOBILEPO.WEBAPI.Extensions.CustomLogger`1">
+            <summary>
+            Class to log events
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.CustomLogger`1.#ctor(Microsoft.Extensions.Logging.ILogger{`0})">
+            <summary>
+            Initializes a new instance to CustomLogger class
+            </summary>
+            <param name="log"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.CustomLogger`1.Error(System.String,System.Object[])">
+            <summary>
+            log Error messages
+            </summary>
+            <param name="message"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.CustomLogger`1.Error">
+            <summary>
+            log Error messages with default message
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.CustomLogger`1.Error(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateDictionary)">
+            <summary>
+            log Error messages for ModeState failures
+            </summary>
+            <param name="modelState"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.CustomLogger`1.Exception(System.Exception,System.String,System.Object[])">
+            <summary>
+            log Exception with message
+            </summary>
+            <param name="ex"></param>
+            <param name="message"></param>
+            <param name="args"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.CustomLogger`1.Exception(System.Exception)">
+            <summary>
+            log Exception with message
+            </summary>
+            <param name="ex"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.CustomLogger`1.Info(System.String,System.Object[])">
+            <summary>
+            log Information message
+            </summary>
+            <param name="message"></param>
+            <param name="args"></param>
+        </member>
+        <member name="T:NB.MOBILEPO.WEBAPI.Extensions.GlobalExceptionFilter">
+            <summary>
+            Class to handle exceptions globally
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.GlobalExceptionFilter.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            Initializes new instance to GlobalExceptionFilter class
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.GlobalExceptionFilter.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            Exception caught
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:NB.MOBILEPO.WEBAPI.Extensions.LogMiddleware">
+            <summary>
+            Class to uses Serilog with Seq to log events
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.LogMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Custom log middleware constructor
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.LogMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Invoking every Http request
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NB.MOBILEPO.WEBAPI.Extensions.Swagger">
+            <summary>
+            Class to provide custom Swagger implementation
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.Swagger.AddSwaggerService(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Add swagger to provide API documenatation
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.Swagger.UseSwaggerService(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Use swagger to project
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:NB.MOBILEPO.WEBAPI.Extensions.FileUploadOperationFilter">
+            <summary>
+            Custom upload filter
+            </summary>
+        </member>
+        <member name="M:NB.MOBILEPO.WEBAPI.Extensions.FileUploadOperationFilter.Apply(Swashbuckle.AspNetCore.Swagger.Operation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            Method to provide upload control
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+        </member>
+        <member name="T:Microsoft.AspNetCore.Authentication.JWTAuthenticationExtensions">
+            <summary>
+            class to provide and validate JWT Authentication
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Authentication.JWTAuthenticationExtensions.AddJwtBearerAuthentication(Microsoft.AspNetCore.Authentication.AuthenticationBuilder)">
+            <summary>
+            Method to call Authentication with configuration options
+            </summary>
+            <param name="builder"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Authentication.JWTAuthenticationExtensions.AddJWTBearerAuthentication(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,System.Action{Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerOptions})">
+            <summary>
+            Methos to call Authentication
+            </summary>
+            <param name="builder"></param>
+            <param name="configureOptions"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\ramakrishnan\Desktop\PUBLISH\MOBILEPO</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>10/29/2018 15:00:51</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>11/02/2018 17:52:19</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>06/07/2018 00:27:02</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>10/09/2018 12:31:47</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>10/09/2018 12:31:47</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>07/26/2018 18:17:04</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>07/26/2018 18:17:06</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>07/26/2018 18:17:00</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
+      <publishTime>06/07/2018 00:27:00</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>06/07/2018 00:26:58</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>06/07/2018 00:26:54</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>06/07/2018 00:26:56</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>06/07/2018 00:27:02</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>06/07/2018 00:27:02</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>06/07/2018 00:26:58</publishTime>
+    </File>
+    <File Include="MySqlConnector.dll">
+      <publishTime>08/24/2018 20:53:16</publishTime>
+    </File>
+    <File Include="NB.MOBILEPO.BAL.dll">
+      <publishTime>12/21/2018 17:53:27</publishTime>
+    </File>
+    <File Include="NB.MOBILEPO.BAL.pdb">
+      <publishTime>12/21/2018 17:53:27</publishTime>
+    </File>
+    <File Include="NB.MOBILEPO.DAL.dll">
+      <publishTime>12/21/2018 17:08:58</publishTime>
+    </File>
+    <File Include="NB.MOBILEPO.DAL.pdb">
+      <publishTime>12/21/2018 17:08:58</publishTime>
+    </File>
+    <File Include="NB.MOBILEPO.WEBAPI.deps.json">
+      <publishTime>12/21/2018 17:53:39</publishTime>
+    </File>
+    <File Include="NB.MOBILEPO.WEBAPI.dll">
+      <publishTime>12/21/2018 17:53:29</publishTime>
+    </File>
+    <File Include="NB.MOBILEPO.WEBAPI.pdb">
+      <publishTime>12/21/2018 17:53:29</publishTime>
+    </File>
+    <File Include="NB.MOBILEPO.WEBAPI.runtimeconfig.json">
+      <publishTime>12/21/2018 17:53:39</publishTime>
+    </File>
+    <File Include="NB.MOBILEPO.WEBAPI.xml">
+      <publishTime>12/21/2018 17:53:29</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>10/09/2018 12:31:18</publishTime>
+    </File>
+    <File Include="Pomelo.EntityFrameworkCore.MySql.dll">
+      <publishTime>09/04/2018 13:31:38</publishTime>
+    </File>
+    <File Include="Pomelo.JsonObject.dll">
+      <publishTime>07/18/2018 22:47:58</publishTime>
+    </File>
+    <File Include="Remotion.Linq.dll">
+      <publishTime>10/09/2018 12:31:18</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netstandard2.0/System.Private.ServiceModel.dll">
+      <publishTime>05/23/2018 15:50:52</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Private.ServiceModel.dll">
+      <publishTime>05/23/2018 15:50:52</publishTime>
+    </File>
+    <File Include="Seq.Extensions.Logging.dll">
+      <publishTime>08/24/2017 15:45:34</publishTime>
+    </File>
+    <File Include="Serilog.AspNetCore.dll">
+      <publishTime>03/07/2018 06:12:12</publishTime>
+    </File>
+    <File Include="Serilog.dll">
+      <publishTime>06/20/2017 17:25:26</publishTime>
+    </File>
+    <File Include="Serilog.Extensions.Logging.dll">
+      <publishTime>08/18/2017 02:37:34</publishTime>
+    </File>
+    <File Include="SoapCore.dll">
+      <publishTime>10/11/2018 11:09:56</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.dll">
+      <publishTime>07/06/2018 17:09:06</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.Swagger.dll">
+      <publishTime>07/06/2018 17:09:02</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
+      <publishTime>07/06/2018 17:09:02</publishTime>
+    </File>
+    <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
+      <publishTime>07/06/2018 17:09:04</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>10/09/2018 12:33:21</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>10/09/2018 12:33:21</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>10/09/2018 12:33:21</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>10/09/2018 12:33:21</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>10/09/2018 12:33:21</publishTime>
+    </File>
+    <File Include="System.Interactive.Async.dll">
+      <publishTime>10/09/2018 12:33:12</publishTime>
+    </File>
+    <File Include="System.ServiceModel.dll">
+      <publishTime>05/23/2018 15:50:48</publishTime>
+    </File>
+    <File Include="System.ServiceModel.Http.dll">
+      <publishTime>07/25/2017 13:59:50</publishTime>
+    </File>
+    <File Include="System.ServiceModel.Primitives.dll">
+      <publishTime>05/23/2018 15:50:48</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>12/21/2018 17:53:39</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
